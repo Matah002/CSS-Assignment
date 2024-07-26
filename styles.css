@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50; /* Green background */
+    padding: 20px; /* Padding for spacing */
+    text-align: center; /* Center the text */
+    color: white; /* White text color */
+}
+
+/* Introduction Section */
+.introduction {
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px; /* Padding for spacing */
+    margin: 20px; /* Margin for spacing */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Skills Display */
+.skills {
+    padding: 20px; /* Padding for spacing */
+    margin: 20px; /* Margin for spacing */
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.skills ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.skills li {
+    border: 1px solid #4CAF50; /* Green border */
+    margin: 10px 0; /* Margin between skills */
+    padding: 10px; /* Padding inside each skill */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Contact Information */
+.contact {
+    background-color: #e7e7e7; /* Light gray background */
+    padding: 20px; /* Padding for spacing */
+    margin: 20px; /* Margin for spacing */
+    border-radius: 5px; /* Rounded corners */
+}
+
+
+@media (max-width: 600px) {
+    header, .introduction, .skills, .contact {
+        margin: 10px; /* Adjust margins for smaller screens */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .skills li {
+        margin: 5px 0; /* Adjust margin for skills */
+    }
+}
+
